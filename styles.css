@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #eee;
+}
+/* Utilities */
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover{
+    color: coral;
+    border-bottom: 2px solid #ff7f50c4;
+}
+img{
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: 24px;
+}
+section {
+    padding: 1rem;
+}
+section img{
+    width: 100%;
+}
+h1, h2, h3{
+    padding: 0.5rem 0;
+}
+button{
+    background-color: #ff7f50c4;
+        color: white;
+        cursor: pointer;
+}
+button:hover{ background-color: coral;}
+
+
+header, footer{
+    background-color: #262626ca;
+    color: white;
+    padding: 1rem;
+    text-transform: capitalize;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav h1{
+    cursor: pointer;
+}
+nav span{
+    color: coral;
+}
+nav a, footer a{
+    padding: 1rem;
+    color: white;
+}
+ nav img{
+    width: 2rem;
+}
+nav ul{
+    display: flex;
+}
+
+section.hero{
+    background-color: #eeeeeed8;
+    margin: 1rem 0;
+    min-height: 25vh;
+}
+section.hero h1{
+    text-align: center;
+}
+section.cat-photos{
+    background-color: #fff;
+}
+section .photos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem ;
+    margin: 1rem 0;
+}
+
+section .photos img{
+    border-radius: 50%;
+}
+section.cat-lists{
+    background-color: #ccd;
+}
+section.cat-lists h2{
+    text-align: center;
+    color: royalblue;
+}
+section.cat-lists ul{
+    list-style-type: square;
+    padding: 0 1rem;
+}
+section.cat-lists li::marker{
+    color: coral;
+    font-size: 1.5rem;
+}
+section.cat-lists figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: coral;
+    margin: 1rem 0;
+}
+section.cats-form{
+    display: flex;
+    flex-direction: column;
+}
+section.cats-form fieldset{
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 8px;
+}
+.option{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0.5rem 0;
+}
+form.add-cat-photo{
+    width: 100%;
+    padding: 0.5rem 0;
+}
+form.add-cat-photo input, form.add-cat-photo button{
+padding: 0.5rem 1rem;
+text-transform: capitalize;
+outline: none;
+border: 2px solid #ff7f50c4;
+}
+form.add-cat-photo input{
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+form.add-cat-photo button {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+   
+}
+
+
+
+footer{
+    text-align: center;
+    position: absolute;
+    width: 100%;
+}
